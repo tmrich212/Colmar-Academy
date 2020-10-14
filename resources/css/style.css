@@ -1,6 +1,6 @@
 * {
-    background-color: white;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
 }
 
 .nav-bar {
@@ -30,6 +30,11 @@
     margin-right: 24px; 
     vertical-align: middle;
     display: inline;
+    
+}
+
+.links {
+    justify-content: flex-end;
 }
 
 li {
@@ -37,14 +42,15 @@ li {
     list-style: none;
     display: inline;
     margin-right: 16px;  
+    align-items: flex-end;
 }
 
 ul, a {
     text-decoration: none;
     color: rgb(97, 97, 97);
-    display:inline;
+    display: inline;
     vertical-align: middle;
-    text-align: right;
+    justify-content: flex-end;
 }
 
 ul {
@@ -55,15 +61,39 @@ a:hover {
     color: navy;
 }
 
-.main-intro {
+.banner {
     background-color: gainsboro;
-    display: inline-block;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(53, 50, 50);
-    display: inline-block;
-    vertical-align: middle;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
-.banner-info {
-    float: right;
+img {
+    margin: 32px 24px;
+}
+
+button {
+    background-color: green;
+    padding: 8px 40px;
+    color: white;
+}
+
+h2, p {
+    justify-content: center;
+}
+
+.grid1 {
+    display: grid;
+}
+
+.first1 {
+    
+    grid-row-start: 1;
+    align-items: flex-start;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
 }
