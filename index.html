@@ -6,15 +6,16 @@
     <title>Welcome to Colmar Academy</title>
     <link href="resources/css/style.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navbar Section -->
     <div class="navbar">
         <div class="navbar_container">
-            <p><img src="resources/css/images/ic-logo.svg" class="logo"><strong>COLMAR</strong>ACADEMY</p>
+            <p><img src="resources/css/images/ic-logo.svg" class="logo">COLMAR<span>ACADEMY</span></p>
             
         <div class="navbar_toggle" id="mobile_menu">
             <span class="bar"></span>
@@ -37,23 +38,187 @@
             </ul>
         </div>
     </div>
+
         <!-- Intoduction Content -->
-        <div class="main">
-            <div class="main_container">
-                <div class="main_img_container">
-                    <div class="main_img_card"><img src="resources/css/images/banner.jpg"></div>
+    <div class="main">
+        <div class="main_container">
+            <div class="main_img_container">
+                <div class="main_img_card">
+                    <img src="resources/css/images/banner.jpg" >
+                </div>
                 <div class="main_content">
-                    <h1>Learn Something New Everyday</h1>
-                    <h3>Lorem impsum dolor</h3>
+                    <h1>Learn something new everyday</h1>
+                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
                     <button class="main_btn"><a href="#">Start Here</a></button>
                 </div>    
+            </div> 
+        </div>  
+    </div>
+
+    <div class="main" id="main_offerings"> 
+        <!-- <div class="main_container"> -->
+            <div class="section2">
+                <div class="main_offerings_card"><img src="resources/css/images/information-main.jpg">
+                    <h2>It doesn't hurt to keep practicing</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem 
+                        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <p>Emanuel, Sr. Strategist at Hiring.com</p>
+                </div>
+
+                <div class="offering_container">
+                    <div class="main_offering_content">
+                        <img src="resources/css/images/information-orientation.jpg">
+                        <h2>Orientation Date</h2>
+                        <p>Tues 10/11 & Wed 10/12: 8am-3pm <a href="#">Read more</a></p>
+                        
+                    </div>
+                    <div class="main_offering_content">
+                        <img src="resources/css/images/information-campus.jpg">
+                        <h2>Our Campus</h2>
+                        <p>Find which campus is close by you<a href="#">Read more</a></p>
+                        
+                    </div>
+                    <div class="main_offering_content" id="lecture">
+                        <img src="resources/css/images/information-guest-lecture.jpg">
+                        <h2>Guest Lecture</h2>
+                        <p>Join a keynote with Oliver Sack about music in 
+                        medical treatment <a href="#">Read more</a></p>
+                        
+                    </div>
+                </div>
+    </div>    
+           
+        <!-- </div>   -->
+    </div>
+
+    <!-- Grid Section -->
+    <div class="grid">
+        <!-- <div class="grid_header">
+            <h1>Start Learning</h1>
+        </div> -->
+            
+        <h1 class="heading">Start Learning</h1>
+        
+        <div class="grid_content">
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-software.jpg">
+                <h2>Software Engineering</h2>
+                <p>COURSES</p>
+                <p>Web Development, Mobile Development, iOT, APIs</p>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-computer-art.jpg">
+                <h2>Computer Art</h2>
+                <p>COURSES</p>
+                <p>Imaging and Design, Web Design, Motion Graphics</p>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-design.jpg">
+                <h2>Design</h2>
+                <p>COURSES</p>
+                <p>User Experience Design, User Research, Visual Design</p>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-data.jpg">
+                <h2>Data</h2>
+                <p>COURSES</p>
+                <p>Data Science, Big Data, SQL, Data Visualization</p>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-business.jpg">
+                <h2>Business</h2>
+                <p>COURSES</p>
+                <p>Product Development, Business Development, Startup </p>
+            </div>
+        </div>
+        <div class="grid_container">
+            <div class="grid-item">
+                <img src="resources/css/images/course-marketing.jpg">
+                <h2>Marketing</h2>
+                <p>COURSES</p>
+                <p>Analytics, Content Marketing, Mobile Marketing</p>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+
+    <div class="thesis">
+        <h1>Thesis Exhibit</h1>
+
+        <div class="section2">
+            <div class="thesis_content_main">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qPJ22mKlbCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Egestas pretium aenean pharetra magna. Consectetur a erat nam at lectus urna. Aliquam malesuada bibendum arcu vitae elementum curabitur. Magna etiam tempor orci eu. Imperdiet proin fermentum leo vel orci. Etiam dignissim diam quis enim lobortis. Venenatis a condimentum vitae sapien. Volutpat est velit egestas dui id ornare. Amet risus nullam eget felis eget nunc lobortis mattis. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Eget duis at tellus at. Consequat id porta nibh venenatis. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant.</p>
+            </div>
+
+        <div class="offering_container">
+        
+            <div class="main_offering_content" id="thesis_content">
+                <img src="resources/css/images/thesis-fisma.jpg" width="60%" alt="">
+                <div class='thesis-div'>
+                    <h3>Fisma: Design & Prototype</h3>
+                    <p>Designer showcase of new protype product</p>
+                </div>
+            </div>
+  
+        
+            <div class="main_offering_content" id="thesis_content">
+                <img src="resources/css/images/thesis-now-and-then.jpg" alt="" id="thesis_content">
+                <h3>Then and Now</h3>
+                <p>Research study about New Your</p>
             </div>
         </div>
         </div>
+    </div>
+    </div>
 
-
-        
+  
     
+
 </body>
 
 </html>
+
+  <!-- Offerings Section -->
+    <!-- <div class="main" id="offerings">
+        <div class="main_container">
+            <div class="main_img_container">
+                <div class="main_offering_card"><img src="resources/css/images/information-main.jpg">
+                    <h3 class="offerings_quote">Lorem impsum dolor</h3>
+                </div>
+            <div class="main_content" id="main_offerings">
+                <ul class="offerings_list">
+                    <li class="offerings_items">
+                        <img src="resources/css/images/information-orientation.jpg" alt="" class="offerings_links">
+                        <h2>Orientation Date</h2>
+                        <p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
+                        <a href="#">Read more</a>
+                    </li>
+                    <li class="offerings_items">
+                        <img src="resources/css/images/information-campus.jpg">
+                        <h2>Our Campus</h2>
+                        <p>Fined which campus is close by you</p>
+                        <a href="#">Read more</a>
+                    </li>
+                    <li class="offerings_items">
+                        <img src="resources/css/images/information-guest-lecture.jpg">
+                        <h2>Guest Lecture</h2>
+                        <p>Join a keynote with Oliver Sack about music in 
+                    medical treatment</p>
+                        <a href="#">Read more</a>
+                    </li>
+                </ul>
+            </div>    
+            </div>    
+        </div>
+    </div> -->
