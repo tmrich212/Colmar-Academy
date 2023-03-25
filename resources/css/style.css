@@ -34,11 +34,12 @@
 
 .logo {
     vertical-align: middle;
-    /* margin-left: 0; */
+    margin-bottom: 2px;
 }
 
 .logo p {
     color: black;
+    justify-self: center;
 }
 
 .navbar_container p {
@@ -161,7 +162,7 @@
 
 
 
-/* Main Content */
+/************* Main Content ***************/
 .main {
     background-color: rgb(230, 230, 230);
     padding: 32px 24px;
@@ -279,7 +280,7 @@
 }
 
 
-/* ***** SECTION 2 */
+/* ***** SECTION **********/
 .section2 {
     display: flex;
     justify-content: center;
@@ -377,7 +378,7 @@
 }
 
 
-/* Grid Section */
+/***************** Grid Section **************** */
 .grid {
     width: 100%;
     margin: 0;
@@ -430,7 +431,7 @@
 }
 
 
-/* Thesis Section */
+/* *********** Thesis Section **************/
 .thesis {
     width: 100%;
     margin: 32px 24px;
@@ -501,6 +502,15 @@ iframe {
 /* .thesis-div p{
 } */
 
+.thesis_content_video h2 {
+    margin-top: 24px;
+}
+
+.thesis_content_video p {
+
+    padding: 8px 0;
+}
+
 #thesis_content h3{
     display: flex;
     justify-content: flex-start;
@@ -508,8 +518,38 @@ iframe {
 }  
 
 #thesis_content p{
+    margin: 0;
+    padding: 8px 0;
+}
+
+/* *********** Footer Section *************** */
+
+footer {
+    margin-top: 16px;
+    padding: 24px 24px 24px 8px;
+    border-top:  rgb(230, 230, 230) solid 2px;
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+
+.footer_links {
     /* background-color: coral; */
-}  
+    width: 15%;
+    margin: 0;
+    text-align: right;
+}
+
+.footer_list {
+    list-style: none;
+    display: flex;
+}
+
+.footer_items a {
+    text-decoration: none;
+}
 /* #offerings {
     background-color: #fff;
     max-width: 1300px;
