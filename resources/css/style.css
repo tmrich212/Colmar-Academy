@@ -166,7 +166,8 @@
 
 @media screen and (max-width: 810px){
     .main {
-        padding: 24px 0;
+        padding: 0 0 32px 0; 
+        width: 100%;
     }
 }
 
@@ -182,7 +183,6 @@
         flex-wrap: wrap;
         align-items: center;
         width: 100%;
-        /* background-color: coral; */
     }
 }
 
@@ -194,24 +194,20 @@
 
 @media screen and (max-width: 810px) {
     .main_img_card {
-        width: 100%;
-        /* margin-right: 10px; */
-        padding: 0;
-        width: 100%;
-        margin: 16px 0;
-        padding: 0;
+        max-width: 100%;
     }
 
     .main_img_card img {
-        width: 100%
+        width: 100%;
+        margin: 0;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 810px){
     .main_img_card {
         width: 100%;
-        margin: 16px 0;
-        padding: 0;
+        margin: 0 0 16px 0;
     }
 }
 
@@ -220,12 +216,18 @@
     flex-direction: column;
     width: 60%;
     margin-left: 24px;
-    /* background-size: 100%;  */
     justify-content: center;
     align-items: flex-start;  
     color: rgb(212, 212, 212);
     text-align: left;
-    /* height: 100vh; */
+}
+
+@media screen and (max-width: 810px){
+    .main_content {
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 
 .main_content h1 {
@@ -238,6 +240,8 @@
 @media screen and (max-width: 965px){ /* was 965 */
     .main_content h1 {
        font-size: 40px;
+       margin: 0 auto;
+       padding: 0;
     }
 }
 
@@ -253,6 +257,8 @@
 @media screen and (max-width: 965px){
     .main_content h3 {
         font-size: 24px;
+        margin: 0 auto;
+        padding: 16px;
     }
 }
 
@@ -269,6 +275,14 @@
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+}
+
+@media screen and (max-width: 810px){
+    .main_btn {
+        margin: 0 auto;
+        background-color: rgb(168, 168, 168);
+        padding: 8px;
+    }
 }
 
 
@@ -338,6 +352,16 @@
 
 .two {
     margin: 32px 24px;
+}
+
+@media screen and (max-width: 600px){
+    .two {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .two h2 {
@@ -557,7 +581,7 @@
         background-color: white;
         padding: 0;
         margin: 24px 0;
-        /* border-bottom: rgb(230, 230, 230) solid 1px; */
+        width: 100%;
     }
 }
 
@@ -635,7 +659,6 @@
         width: 0;
         margin: 0;
         padding: 0;
-        background-color: cadetblue;
     }
 
     .grid-item h2 {
